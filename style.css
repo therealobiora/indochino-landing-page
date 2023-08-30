@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  height: 100vh;
+  background-color: white;
+  width: 70vw;
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 10px;
+  color: rgb(50, 138, 189);
+}
+
+header b {
+  font-size: 18px;
+}
+
+header small {
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header .body1 {
+  margin-bottom: 8%;
+}
+
+.body1 b {
+  font-size: 40px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  background-color: rgb(50, 138, 189);
+  color: white;
+}
+
+.body img {
+  align-items: center;
+  flex: 0 0 auto;
+  height: 50vh;
+  padding: 20px;
+  background-color: transparent;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  border: none;
+  color: rgb(50, 138, 189);
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.ora {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  font-size: 15px;
+}
+
+.suits {
+  height: 30px;
+  width: 150px;
+  border: 2px solid rgb(50, 138, 189);
+  color: rgb(50, 138, 189);
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  background-color: rgb(50, 138, 189);
+  color: white;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  color: white;
+}
+
+.box1 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box1 b {
+  margin: 10px 0px;
+}
+
+.box1 hr {
+  width: 50px;
+}
